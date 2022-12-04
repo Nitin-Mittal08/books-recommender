@@ -3,22 +3,24 @@ import "./styles.css";
 import { useState } from "react";
 
 const bookDB = {
-  Fiction: [
-    { name: "Animal Farm", rating: "4/5" },
-    { name: "Godaan", rating: "4.5/5" }
-  ],
-
-  Nonfiction: [
+  nonfiction: [
     {
       name: "The 12 rules of life",
-      rating: "4.5/5"
+      rating: "4/5"
     },
     {
       name: "Psychology of money",
-      rating: "4/5"
+      rating: "3.5/5"
     }
   ],
-  Autobiography: [
+
+  fiction: [
+    { name: "Shiva Trilogy", rating: "5/5" },
+    { name: "Harry Potter and the Sorcerer's Stone", rating: "4.5/5" }
+  ],
+
+ 
+  autobiography: [
     {
       name: "My Experiments with Truth",
       rating: "4/5"
