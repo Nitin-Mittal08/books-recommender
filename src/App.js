@@ -11,12 +11,17 @@ const bookDB = {
     {
       name: "Psychology of money",
       rating: "3.5/5"
+    },
+    {
+      name: "Sapiens: A Brief History of Humankind",
+      rating: "4.5/5"
     }
   ],
 
   fiction: [
     { name: "Shiva Trilogy", rating: "5/5" },
-    { name: "Harry Potter and the Sorcerer's Stone", rating: "4.5/5" }
+    { name: "Harry Potter and the Sorcerer's Stone", rating: "4.5/5" },
+    { name: "Sophie's World", rating: "4.5/5" }
   ],
 
  
@@ -27,6 +32,10 @@ const bookDB = {
     },
     {
       name: "Born a Crime",
+      rating: "4/5"
+    },
+    {
+      name: "Long Walk to Freedom",
       rating: "4/5"
     }
   ]
